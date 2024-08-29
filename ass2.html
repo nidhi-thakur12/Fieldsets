@@ -7,7 +7,8 @@
 </head>
 <body>
     <center>
-    <table border="1px" width="500px" rules="none" bgcolor="#CBC3E3">
+    <table border="1px" rules="none" width="400px"  bgcolor="#CBC3E3">
+        <form name="fieldsets" method="GET">
         <tr bgcolor="#89CFF0" height="30px">
             <td>Simple Form with fieldsets</td>
         </tr>
@@ -19,19 +20,19 @@
  
                         First Name:
                         &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;
-                        <input type="text" name="fn" size="35px" required autofocus>
+                        <input type="text" name="fn" size="30px" required autofocus>
                         <br><br>
                         Last Name:
                         &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;
-                        <input type="text" name="ln" size="35px" required>
+                        <input type="text" name="ln" size="30px" required>
                         <br><br>
                         Company:
                         &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;  &nbsp;
-                        <input type="text" name="co" size="35px" required>
+                        <input type="text" name="co" size="30px" required>
                         <br><br>
                         Email:
                         &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;
-                        <input type="email" name="e" size="35px" required>
+                        <input type="email" name="e" size="30px" required>
                    
                     
                 </td>
@@ -52,7 +53,7 @@
                  <br><br>
                  Mobile:
                  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;  &nbsp;&nbsp;&nbsp;   
-                 <input type="number" name="mo" size="30px"  required>
+                 <input type="number" name="mo" size="30px" maxlength="10" required>
                  <br><br>
                  Fax:
                  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;
@@ -70,6 +71,7 @@
                 </th>
 
             </tr>
+        </form>
         </table>
         </center>
     </body>
