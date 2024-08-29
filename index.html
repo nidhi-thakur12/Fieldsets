@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormTable</title>
+</head>
+<body>
+    <center>
+    <table border="1px" bgcolor="gold" width="500px" rules="none">
+    <form name="form">
+    <tr bgcolor="white">
+        <th>
+          <h3>Please fill out the form completely</h3>
+        
+        </th>
+    </tr>
+    
+    <tr>
+        <td>
+            
+            <fieldset>
+                <legend><marquee bgcolor="green"  scrollamount="0" height="25px">Personal Information</marquee></legend>
+                <br>
+                <b>First Name:</b>
+                <input type="text" name="fn"  size="30px" required autofocus>
+                <br><br>
+                <b>Last Name: </b>
+                <input type="text" name="lm" size="30px"  required>
+                <br><br>
+                <b>Street:</b>
+                <input type="text" name="st"  size="30px"  required>
+                <br><br>
+                <b>City:</b>
+                <input type="text" name="ci"  size="30px"  required>
+                <br><br>
+                <b>State</b>
+                <select name="select">
+                    <option disabled selected>---</option>
+                    <option>Uttar Pradesh</option>
+                    <option>Gujarat</option>
+                     <option>Delhi</option>
+                    <option>Kolkata</option>
+                    <option>Mizoram</option>
+                </select> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                <b>Zip</b>  
+                <input type="text" name="z" size="10px" >
+            </fieldset>
+        </td>
+    </tr>
+    <tr bgcolor="white">
+        <td><br></td>
+    </tr>
+    <tr >
+        <td>
+            <fieldset>
+            
+                <legend><marquee bgcolor="green" scrollamount="0" height="25px">Other Form Elements </marquee></legend>
+    
+            
+                <b>Do you have a pet dog?  </b>        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="dog">Yes    &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="dog">No
+                <br><br>
+                <b>If yes, how many?</b>
+                <input type="radio" name="hm">One    &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="hm">Two    &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="hm">More than two  &nbsp;&nbsp;&nbsp;&nbsp;<br>
+                <b>What breed of dog have you had as a pet? (check all that apply)</b><br>
+                <input type="checkbox" name="pet" value="Bulldog">Bulldog   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="pet" value="Basset Hound">Basset Hound     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="pet" value="Golden Retriever">Golden Retriever    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br><br>
+                <b>Tell us about your favourite dog:</b><br>
+                <textarea name="fd" cols="50" rows="10"></textarea>
+            </fieldset>
+               
+            
+        </td>
+    </tr>
+  
+    <tr bgcolor="white" height="60px">
+        <th>
+            <button type="submit">Send Info</button>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="submit">Clear Info</button>
+        </th>
+    </tr>
+</table>
+</center>
+
+</body
+</html>
